@@ -1,0 +1,58 @@
+﻿
+
+body{
+    background-color: white;
+    font-family: 'Fredoka One', cursive;
+    margin-top: 50px;
+    font-size: 24px;
+    color: #51484c;
+}
+
+form{
+    margin-top: 15px;
+}
+
+input{
+    background-color: white;
+    border: 2px solid #f9d4e2;
+    border-radius: 5px;
+    color: #51484c;
+}
+
+input:focus{
+    outline: none;
+}
+
+.btn{
+    background-color: #fceff4;
+    border: 2px solid #f9d4e2;
+    color:#51484c;
+}
+
+.btn:hover{
+    background-color: #f9d4e2;
+    border: 2px solid #fceff4;
+}
+
+#id, body{
+    justify-content: center;
+    text-align: center;
+}
+
+.div_with_ol{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+ol{
+    text-align: left;
+    list-style-position: inside;
+    width: 50%;
+    transform: translateX(70%);
+}
+
+li{
+    padding-left: 15px;
+}
